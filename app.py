@@ -326,6 +326,7 @@ elif menu == "6. Đặc tính hóa máy in nửa tone (Halftone)":
     ax_tvi.set_ylabel("Phần trăm (%)")
     ax_tvi.grid(True, linestyle=":")
     ax_tvi.legend()
+    # cap nhat moi
     
     st.pyplot(fig_tvi)
 
